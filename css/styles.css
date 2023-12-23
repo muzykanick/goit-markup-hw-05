@@ -568,6 +568,9 @@ border-radius: 4px;
 width: 264px;
 padding: 8px 16px;
 height: 40px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
 outline: none;
 background-color: transparent;
 color: #FFF;
@@ -586,12 +589,13 @@ letter-spacing: 0.04em;
 display: flex;
 align-items: center;
 justify-content: center;
+min-width: 165px;
 cursor: pointer;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-gap: 16px;
+
 border-radius: 4px;
 padding: 8px 24px;
 background: #4D5AE5;
@@ -602,6 +606,7 @@ border: none;
 
 .subscribe-form-icon {
 fill: #FFF;
+margin-left: 16px;
 }
 
 /* Modal*/
