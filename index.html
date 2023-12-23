@@ -462,6 +462,7 @@
           <form class="subscribe-form" name="Subscribe">
             <label for="subscribe-form-field">
               <input
+                id="subscribe-form-field"
                 class="subscribe-form-input"
                 type="email"
                 placeholder="E-mail"
@@ -484,82 +485,82 @@
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#iconxblack"></use>
           </svg>
-          </button>
-          <p class="modal-text">Leave your contacts and we will call you back</p>
-          <form class="modal-form form" name="contacts" novalidate>
-            <div class="form-wrapper">
-            <label class="form-lable" for="user_name">
-              Name
-              <div class="form-field">
-                <input
-                  class="form-input"
-                  id="user_name"
-                  type="text"
-                  name="name"
-                />
-                <svg class="form-icon" width="18" height="18">
-                  <use href="./images/icons.svg#iconperson-black"></use>
-                </svg>
-              </div>
-            </label>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form form" name="contacts" novalidate>
+          <div class="form-wrapper">
+            <label class="form-lable" for="user_name"> Name</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="user_name"
+                type="text"
+                name="name"
+              />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#iconperson-black"></use>
+              </svg>
             </div>
-            <div class="form-wrapper">
-            <label class="form-lable" for="telephone">
-              Phone
-              <div class="form-field">
-                <input
-                  class="form-input"
-                  id="telephone"
-                  type="text"
-                  name="telephone"
-                />
-                <svg class="form-icon" width="18" height="24">
-                  <use href="./images/icons.svg#iconphone-black"></use>
-                </svg>
-              </div>
-            </label>
+          </div>
+
+          <div class="form-wrapper">
+            <label class="form-lable" for="telephone"> Phone</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="telephone"
+                type="text"
+                name="telephone"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#iconphone-black"></use>
+              </svg>
             </div>
-            <div class="form-wrapper">
-              <label class="form-lable" for="email_address">
-              Email
-              <div class="form-field">
-                <input
-                  class="form-input"
-                  id="email_address"
-                  type="text"
-                  name="email"
-                />
-                <svg class="form-icon" width="18" height="24">
-                  <use href="./images/icons.svg#iconemail-black"></use>
-                </svg>
-              </div>
-              </div>
-                <div>
-                  </label>
-                  <label class="form-lable" for="user_comment">Comment</label>
-                  <textarea
-                  class="form-comment"
-                  name="user_comment"
-                  id="user_comment"
-                  rows="4"
-                  placeholder="Text input"
-                  ></textarea>
-                </div>
-                <label class="form-agreement">
-                  <input class="checkbox visually-hidden" type="checkbox" name="user_agreement" value="false">
-                  <span class="form-agreement-checkbox">
-                    <svg class="form-agreement-icon" width="10" height="8">
-                      <use href="./images/icons.svg#icontickmark"></use>
-                    </svg>
-                  </span>
-                  I accept the terms and conditions of the 
-                  <a class="form-agreement-link" href="">Privacy Policy</a>
-                </label>
-                <button class="button" type="button">Send</button>
+          </div>
 
+          <div class="form-wrapper">
+            <label class="form-lable" for="email_address"> Email</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="email_address"
+                type="text"
+                name="email"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#iconemail-black"></use>
+              </svg>
+            </div>
+          </div>
 
-            </form>
-        </div>
+          <div>
+            <label class="form-lable" for="user_comment">Comment</label>
+            <textarea
+              class="form-comment"
+              name="user_comment"
+              id="user_comment"
+              rows="4"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <label class="form-agreement">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="user_agreement"
+              value="false"
+            />
+            <span class="form-agreement-checkbox">
+              <svg class="form-agreement-icon" width="10" height="8">
+                <use href="./images/icons.svg#icontickmark"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="form-agreement-link" href="">Privacy Policy</a>
+          </label>
+          <button class="button" type="button">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
