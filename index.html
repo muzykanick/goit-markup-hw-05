@@ -545,21 +545,25 @@
             ></textarea>
           </div>
 
-          <label class="form-agreement">
+          <div class="form-agreement-main">
             <input
+              id="user-privacy"
               class="checkbox visually-hidden"
               type="checkbox"
-              name="user_agreement"
-              value="false"
+              name="user-privacy"
+              value="true"
             />
-            <span class="form-agreement-checkbox">
-              <svg class="form-agreement-icon" width="10" height="8">
-                <use href="./images/icons.svg#icontickmark"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-agreement-link" href="">Privacy Policy</a>
-          </label>
+            <label class="form-agreement" for="user-privacy">
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icontickmark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+
           <button class="button" type="button">Send</button>
         </form>
       </div>
